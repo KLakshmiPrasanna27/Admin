@@ -1,0 +1,18 @@
+.navbar-custom {
+  background-color: #343a40 !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #ffffff !important;
+}
+
+.navbar-user {
+  color: #adb5bd !important;
+  margin-right: 15px;
+}
+
+.navbar-user::before {
+  content: "👤 ";
+}

@@ -1,0 +1,97 @@
+.project-detail-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.project-detail-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.project-detail-header h1 {
+  margin: 0;
+  color: #333;
+  flex: 1;
+}
+
+.project-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.project-info-card,
+.tasks-card,
+.members-card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.task-item {
+  border: none;
+  border-bottom: 1px solid #f0f0f0;
+  padding: 15px 0;
+}
+
+.task-item:last-child {
+  border-bottom: none;
+}
+
+.task-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+
+.task-badges {
+  display: flex;
+  gap: 5px;
+}
+
+.task-description {
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.task-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  color: #888;
+}
+
+.member-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.member-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .project-detail-header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .project-actions {
+    justify-content: center;
+  }
+
+  .task-meta {
+    flex-direction: column;
+    gap: 5px;
+  }
+}

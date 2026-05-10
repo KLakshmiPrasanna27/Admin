@@ -1,0 +1,62 @@
+[
+  {
+    "_id": "1778422239480",
+    "id": "1778422239480",
+    "name": "Persistent User",
+    "email": "persistent@example.com",
+    "phone": "1111111111",
+    "password": "$2a$10$gGrdYu7Y1JVA4mqg.TPJveaPec5qJmupC4ixJ6vmcePIgT5liVqsC",
+    "role": "member",
+    "age": 30,
+    "createdAt": "2026-05-10T14:10:39.480Z",
+    "updatedAt": "2026-05-10T14:10:39.480Z"
+  },
+  {
+    "_id": "1778422444270",
+    "id": "1778422444270",
+    "name": "Prasanna",
+    "email": "prasanna@gmail.com",
+    "phone": "8125695190",
+    "password": "$2a$10$er64mreECP0bxaePSlSW1eSTpxgo6SoTozF/9m2VurbmrEkePkE1.",
+    "role": "member",
+    "age": 20,
+    "createdAt": "2026-05-10T14:14:04.270Z",
+    "updatedAt": "2026-05-10T14:14:04.270Z"
+  },
+  {
+    "_id": "1778423550677",
+    "id": "1778423550677",
+    "name": "Satwika",
+    "email": "satwika@gmail.com",
+    "phone": "7637648438",
+    "password": "$2a$10$/aTajl2Ppe7QyaVByhkoNe26eQKfo3OQyepiDLcwEy.jHNoKex1jK",
+    "role": "member",
+    "age": 23,
+    "createdAt": "2026-05-10T14:32:30.677Z",
+    "updatedAt": "2026-05-10T14:32:30.677Z"
+  },
+  {
+    "_id": "1778425290090",
+    "id": "1778425290090",
+    "name": "sai",
+    "email": "sai@gmail.com",
+    "phone": "5642374367",
+    "password": "$2a$10$olNQ9YHkE3nd0rfAHEEr7uWSOuGb5dPX4ihmmVlxQlC.b46vzGzbS",
+    "role": "member",
+    "age": 34,
+    "createdAt": "2026-05-10T15:01:30.090Z",
+    "updatedAt": "2026-05-10T15:01:30.090Z"
+  },
+  {
+    "_id": "1778426401438",
+    "id": "1778426401438",
+    "name": "Sumala Srinu",
+    "email": "Srinu@gmail.com",
+    "phone": "8801013241",
+    "password": "$2a$10$0q2TYTt.Uounbcz85/6dCue16nndkrwi38VQKKwEeF0XNciyDeLRy",
+    "role": "member",
+    "age": 28,
+    "createdAt": "2026-05-10T15:20:01.438Z",
+    "updatedAt": "2026-05-10T15:20:01.438Z"
+  }
+]

@@ -1,0 +1,55 @@
+.create-task-container {
+  padding: 40px 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.create-task-wrapper {
+  background-color: #f8f9fa;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.create-task-wrapper h2 {
+  color: #333;
+  margin-bottom: 25px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.button-group button {
+  min-width: 120px;
+  font-weight: 500;
+}
+
+.create-task-wrapper .form-label {
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.create-task-wrapper .form-control,
+.create-task-wrapper .form-select {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+}
+
+.create-task-wrapper .form-control:focus,
+.create-task-wrapper .form-select:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.create-task-wrapper .alert {
+  margin-bottom: 20px;
+  border-radius: 4px;
+}

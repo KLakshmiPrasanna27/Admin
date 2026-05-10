@@ -1,0 +1,167 @@
+.top {
+    background-color: #f5f7fa;
+    min-height: 100vh;
+}
+
+.homePage {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    color: white;
+    padding: 20px;
+}
+
+.homePageHeader {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+.homePageHeader h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    animation: fadeInDown 0.8s ease-in;
+}
+
+.homePageHeader p {
+    font-size: 20px;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.9);
+    margin: 0;
+    animation: fadeInUp 0.8s ease-in;
+}
+
+.homePageBody {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.homePageDescription {
+    flex: 1;
+    min-width: 300px;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    color: #333;
+    line-height: 1.8;
+}
+
+.homePageDescription p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    min-width: 250px;
+    animation: fadeInRight 0.8s ease-in;
+}
+
+.buttonContainer button {
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.buttonContainer button[href*="signUp"] {
+    background-color: #38ef7d;
+    color: white;
+}
+
+.buttonContainer button[href*="signUp"]:hover {
+    background-color: #11998e;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.buttonContainer button[href*="login"] {
+    background-color: #ff6b6b;
+    color: white;
+}
+
+.buttonContainer button[href*="login"]:hover {
+    background-color: #ff5252;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Animations */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .homePageHeader h1 {
+        font-size: 32px;
+    }
+
+    .homePageHeader p {
+        font-size: 16px;
+    }
+
+    .homePageBody {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .homePageDescription {
+        min-width: 100%;
+        padding: 20px;
+    }
+
+    .buttonContainer {
+        min-width: 100%;
+    }
+}
