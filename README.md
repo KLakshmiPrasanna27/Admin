@@ -131,5 +131,4 @@ Passionate about AI, ML, Full Stack Development & Data Analytics
 🔗 GitHub: https://github.com/KLakshmiPrasanna27  
 🔗 LinkedIn: https://linkedin.com/in/lakshmi-prasanna-reddy-81b1502a4
 
----
-⭐ If you like this project, don't forget to star the repository!
+
