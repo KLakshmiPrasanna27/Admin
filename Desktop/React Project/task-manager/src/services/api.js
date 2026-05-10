@@ -1,5 +1,5 @@
 const API_URL = process.env.NODE_ENV === 'production'
-  ? process.env.REACT_APP_API_URL || 'https://task-manager-backend-production.up.railway.app/api'
+  ? process.env.REACT_APP_API_URL || '/api'
   : 'http://localhost:5000/api';
 
 // Helper function to get auth headers

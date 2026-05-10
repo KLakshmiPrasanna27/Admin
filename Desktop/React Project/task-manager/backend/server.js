@@ -12,12 +12,17 @@ const app = express();
 // Connect to database
 connectDB();
 
+// Trust proxy (Railway)
+app.set('trust proxy', 1);
+
 // Middleware
 const corsOptions = {
   origin: process.env.NODE_ENV === 'production'
-    ? process.env.FRONTEND_URL
+    ? (process.env.FRONTEND_URL || '*')
     : 'http://localhost:3000',
-  credentials: true
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH'],
+  allowedHeaders: ['Content-Type', 'Authorization']
 };
 
 app.use(cors(corsOptions));
